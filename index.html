@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes Part 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1 id="network">Network</h1>
+        <h1 id="Feed">Your Feed</h1>
+    </div>
+    <div class="main-container">
+        <div class="col-1">
+            <div class="Avatar">
+                <img src="img\blank-profile-picture.png" alt="Icon" class="icon_pro">
+                <br>
+                <a href=""> Add an Avatar</a>
+                <h1>James Doe</h1>
+            </div>
+        </div>
+        <div class="col-2">
+        <div class="likebox">
+            <div class="top">
+                <h1 class="user">Neil M</h1>
+                <p id="like"><span>0 Like(s)</span></p>
+                <button onclick="add1(this)">Like</button>
+            </div>
+            <div>
+                <h3>I just set up this new discord server bot, let me know what you think.<a href="">link</a> </h3>
+            </div>
+        </div>
+            <div class="likebox">
+                <div class="top">
+                    <h1 class="user">Nichole K</h1>
+                    <p id="like"><span>0 Like(s)</span></p>
+                    <button onclick="add2(this)">Like</button>
+                </div>
+                <div>
+                    <h3>Just finished my <a href="">next comic</a>, check it out. </h3>
+                </div>
+            </div>
+                <div class="likebox">
+                    <div class="top">
+                        <h1 class="user">Jim R</h1>
+                        <p id="like"><span>0 Like(s)</span></p>
+                        <button  onclick="add3(this)">Like</button>
+                    </div>
+                    <div>
+                        <h3>I can't stop listening to the <a href="">new album</a>. Who else is linking it? </h3>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
